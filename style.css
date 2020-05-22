@@ -30,6 +30,7 @@ body {
   font-size: 1rem;
   font-variant-numeric: oldstyle-nums;
   line-height: 1.5;
+  margin: 0 auto;
 }
 
 @supports (font-variation-settings: normal) {
@@ -39,8 +40,11 @@ body {
   .bird {
     font-variation-settings: "GRAD" var(--GRAD), "YTLC" var(--YTLC),
       "YTAS" var(--YTAS);
-    font-size: 8rem;
   }
+}
+
+.bird {
+  font-size: clamp(4rem, 8rem, 20vw);
 }
 
 canvas {
