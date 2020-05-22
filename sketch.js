@@ -15,18 +15,18 @@ function setup() {
 function togglePlaying() {
   if (!playing) {
     song.loop();
-    button.html("stop");
+    startButton.innerHTML = "Stop";
     playing = true;
   } else {
     playing = false;
     song.stop();
-    button.html("start");
+    startButton.innerHTML = "Start song";
   }
 }
 
 function loaded() {
-  button = createButton("start");
-  button.mousePressed(togglePlaying);
+  startButton = document.getElementById("startButton");
+  startButton.addEventListener("click", togglePlaying);
 }
 
 function draw() {
