@@ -19,10 +19,20 @@
   --GRAD: 1;
 }
 
-html,
-body {
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+figure,
+blockquote,
+dl,
+dd {
   margin: 0;
-  padding: 0;
 }
 
 body {
@@ -59,7 +69,7 @@ footer {
   line-height: 1.2;
 }
 
-.bird__names p {
+.bird__names p[lang="la"] {
   font-style: italic;
   margin: 0 0 2rem 0;
 }
