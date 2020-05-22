@@ -44,6 +44,10 @@ body {
   }
 }
 
+h1 {
+  text-align: center;
+}
+
 .bird {
   font-size: clamp(4rem, 8rem, 20vw);
   margin: 0;
