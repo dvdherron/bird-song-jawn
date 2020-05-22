@@ -44,12 +44,18 @@ body {
   }
 }
 
-h1 {
+.bird__names {
   text-align: center;
 }
 
 .bird {
   font-size: clamp(4rem, 8rem, 20vw);
+  margin: 0;
+  line-height: 1.2;
+}
+
+.bird__names p {
+  font-style: italic;
   margin: 0;
 }
 
