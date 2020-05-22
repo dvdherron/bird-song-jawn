@@ -31,7 +31,7 @@ body {
   font-variant-numeric: oldstyle-nums;
   line-height: 1.5;
   margin: 0 auto;
-  padding: 0 5rem;
+  padding: 0 5%;
 }
 
 @supports (font-variation-settings: normal) {
