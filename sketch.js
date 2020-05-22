@@ -5,7 +5,7 @@ let sliderPan;
 let playing = false;
 
 function setup() {
-  song = loadSound("assets/Koltrast.mp3", loaded);
+  song = loadSound("assets/Koltrast.mp3");
   song.playMode("restart");
   amp = new p5.Amplitude();
 
@@ -24,10 +24,8 @@ function togglePlaying() {
   }
 }
 
-function loaded() {
-  startButton = document.getElementById("startButton");
-  startButton.addEventListener("click", togglePlaying);
-}
+startButton = document.getElementById("startButton");
+startButton.addEventListener("click", togglePlaying);
 
 function draw() {
   let vol = amp.getLevel();
