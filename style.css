@@ -35,6 +35,10 @@ body {
   max-width: 1200px;
 }
 
+footer {
+  margin-bottom: 5rem;
+}
+
 @supports (font-variation-settings: normal) {
   body {
     font-family: Amstelvar, Georgia, "Times New Roman", Times, serif;
