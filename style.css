@@ -31,6 +31,7 @@ body {
   font-variant-numeric: oldstyle-nums;
   line-height: 1.5;
   margin: 0 auto;
+  padding: 0 5rem;
 }
 
 @supports (font-variation-settings: normal) {
@@ -45,6 +46,7 @@ body {
 
 .bird {
   font-size: clamp(4rem, 8rem, 20vw);
+  margin: 0;
 }
 
 canvas {
