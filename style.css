@@ -45,6 +45,30 @@ body {
   max-width: 1200px;
 }
 
+a {
+  color: inherit;
+  text-decoration: underline;
+  padding: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: 3px solid;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0f0281;
+}
+
+button:focus {
+  box-shadow: 0 0.1em 0.5em rgba(0, 0, 0, 0.5);
+  outline: 3px solid;
+}
+
 header {
   margin-top: 3rem;
 }
